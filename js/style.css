@@ -143,7 +143,7 @@ input:disabled {
   display: block;
 }
 
-.bttn {
+.bttn_1 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 0.75rem;
@@ -155,15 +155,15 @@ input:disabled {
   height: 2.5rem;
 }
 
-.bttn.fill {
+.bttn_1.fill {
   width: 50%;
 }
 
-.bttn:focus {
+.bttn_1:focus {
   outline: 1px dotted;
 }
 
-.bttn:hover {
+.bttn_1:hover {
   background-color: #edf2f7;
 }
 
@@ -178,7 +178,7 @@ input:disabled {
   margin-right: 0;
 }
 
-.bttn.active {
+.bttn_1.active {
   background-color: #606FC7;
   color: rgb(141, 0, 0);
   border-width: 1px;
@@ -198,7 +198,7 @@ input:disabled {
   padding-bottom: 0.75rem;
 }
 
-.bttn.active:hover, .bttn_1000:hover {
+.bttn_1.active:hover, .bttn_1000:hover {
   background-color: #4c51bf;
 }
 
