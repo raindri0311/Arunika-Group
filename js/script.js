@@ -80,8 +80,8 @@ var setupButtonListeners = function() {
 
 	// make the buttons blue when clicked
 	// and show the proper "Select file" or "Enter url" state
-	$('.bttn').click(function() {
-		$(this).parent().find('.bttn').removeClass('active');
+	$('.bttn_1').click(function() {
+		$(this).parent().find('.bttn_1').removeClass('active');
 		$(this).addClass('active');
 
 		if($('#computerButton').hasClass('active')) {
