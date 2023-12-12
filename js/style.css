@@ -188,14 +188,14 @@ input:disabled {
 
 .bttn.active {
 	background-color: #606FC7;
-	color: white;
+	color: rgb(141, 0, 0);
 	border-width: 1px;
 	border-color: #606FC7;
 }
 
 .bttn__primary {
 	background-color: #606FC7;
-	color: white;
+	color: rgb(0, 0, 0);
 	border-width: 1px;
 	border-color: #606FC7;
 	border-radius: 0.25rem;
@@ -212,7 +212,7 @@ input:disabled {
 
 .codeblock {
 	border-width: 1px;
-	border-color: #cbd5e0
+	border-color: #cbd5e0;
 	border-radius: 0.25rem;
 	display: block;
 	padding: 0.75rem;
