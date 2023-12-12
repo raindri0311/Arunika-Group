@@ -193,7 +193,7 @@ input:disabled {
   border-width: 1px;
   border-color: #606FC7;
   border-radius: 0.25rem;
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   padding-top: 0.75rem;
@@ -201,7 +201,7 @@ input:disabled {
 }
 
 .bttn_1.active:hover, .bttn_1000:hover {
-  background-color: #4c51bf;
+  background-color: #d0d2ee;
 }
 
 .codeblock {
