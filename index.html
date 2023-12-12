@@ -425,10 +425,8 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/ekko-lightbox-min.js"></script>
-	<script type="text/javascript">
+	<script type="text/javascript">$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) { event.preventDefault(); $(this).ekkoLightbox(); }); </script>
 	<script src="js/script.js"></script>
-	$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) { event.preventDefault(); $(this).ekkoLightbox(); }); 
-	</script>
 	<script>
 		new WOW().init();
 	</script>
